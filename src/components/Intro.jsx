@@ -8,25 +8,23 @@ export default function Intro() {
 
 			<div className="sm:flex sm:grid-cols-12 md:grid-cols-6">
 				<div
-				className="flex-1 text-center bg-light rounded"
+				className="w-full flex-1 text-center bg-heather"
 				>
 					<div className="md:flex sm:px-5 xl:px-10">
-						<div className="flex justify-center my-5">
+						<div className="flex justify-center">
 							<img className="rounded-3xl my-center p-2" src={Logo} alt="" />
 						</div>
 
 						<div className="m-auto">
 						<h1
-						className="-mx-1 tracking-wide text-4xl text-primary font-bold"
+						className="-mx-1 tracking-wide text-4xl text-gray-800 font-bold pb-5"
 						>
 						Hi. I'm Lisa Canini
 						</h1>
 
-						<h2 className="text-xl mb-5">(aka Lisa Cee)</h2>
+						<p className="text-lg text-gray-800 mb-5"> I am... <br /> Adaptive | Inquisitive | Compassionate</p>
 
-						<p className="text-lg mb-5"> Adaptive | Inquisitive | Compassionate</p>
-
-						<p className="px-5 text-md">Passionate full stack developer, creating websites that remove
+						<p className="px-5 text-gray-800text-md">Passionate full stack developer, creating websites that remove
 						barriers to access and make information available to everyone.</p>
 						</div>
 
