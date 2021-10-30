@@ -5,7 +5,7 @@ export default function Nav() {
 
 	return (
 		<>
-		<nav className="flex items-center justify-between flex-wrap bg-violet-900 p-6">
+		<nav className="container mx-auto flex items-center justify-between flex-wrap bg-violet-900 p-6">
 			<div className="container mx-auto">
 				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<span className="font-semibold text-2xl text-white align-baseline">
@@ -35,7 +35,7 @@ export default function Nav() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a href="#responsive-header" className="block mt-4 mr-4 text-gray-200 font-semibold hover:text-white lg:inline-block lg:mt-0 ">
+							<a href="#skills" className="block mt-4 mr-4 text-gray-200 font-semibold hover:text-white lg:inline-block lg:mt-0 ">
 								Skills
 							</a>
 						</li>

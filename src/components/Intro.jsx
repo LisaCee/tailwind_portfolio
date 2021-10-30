@@ -6,9 +6,9 @@ export default function Intro() {
 
 		<div className="container mx-auto">
 
-			<div className="sm:flex sm:grid-cols-12 md:grid-cols-6">
+			<div className="sm:grid-cols-12 md:grid-cols-6">
 				<div
-				className="w-full flex-1 text-center bg-heather"
+				className="w-full text-center bg-cyan-500"
 				>
 					<div className="md:flex sm:px-5 xl:px-10">
 						<div className="flex justify-center">
