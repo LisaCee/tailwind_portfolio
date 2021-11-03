@@ -8,7 +8,7 @@ export default function Intro() {
 
 			<div className="sm:grid-cols-12 md:grid-cols-6">
 				<div
-				className="w-full text-center bg-cyan-500"
+				className="w-full text-center bg-gradient"
 				>
 					<div className="md:flex sm:px-5 xl:px-10">
 						<div className="flex justify-center">
@@ -24,7 +24,7 @@ export default function Intro() {
 
 						<p className="text-lg text-gray-800 mb-5"> I am... <br /> Adaptive | Inquisitive | Compassionate</p>
 
-						<p className="px-5 text-gray-800text-md">Passionate full stack developer, creating websites that remove
+						<p className="px-5 pb-5 text-gray-800text-md">Passionate full stack developer, creating websites that remove
 						barriers to access and make information available to everyone.</p>
 						</div>
 
