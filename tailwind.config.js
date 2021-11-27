@@ -11,7 +11,7 @@ module.exports = {
         current: 'currentColor',
         gray: colors.trueGray,
         violet: colors.violet,
-        heather: '#8870B9',
+        heather: '#c4b5fd',
         cyan: colors.cyan
 
     },
