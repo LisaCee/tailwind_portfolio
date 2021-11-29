@@ -4,11 +4,11 @@ import Logo from '../images/avatar350.jpg';
 export default function Intro() {
 	return (
 
-		<div className="container mx-auto">
+		<div className="mx-auto lg:px-28 bg-gradient">
 
-			<div className="sm:grid-cols-12 md:grid-cols-6">
+			<div className="mx-auto sm:grid-cols-12 md:grid-cols-6">
 				<div
-				className="w-full text-center bg-gradient"
+				className="w-full text-center"
 				>
 					<div className="md:flex sm:px-5 xl:px-10">
 						<div className="flex justify-center">

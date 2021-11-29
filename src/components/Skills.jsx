@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Skills() {
 	return (
-		<div className="container mx-auto px-10 py-10">
+		<div className="container mx-auto px-10 lg:px-28 py-10">
 			<h2 id="skills" className="text-2xl font-bold">Skills</h2>
 				<p>Lisa is a valuable member of any team. She has great curiosity and the resolve to find solutions. Lisa is a full stack developer and enjoys understanding what makes an application work and exploring how she can improve it.</p>
 			<div className="grid grid-cols-1 pt-5 gap-y-5 sm:grid-cols-2">

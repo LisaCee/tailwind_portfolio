@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
 	return (
-		<div className="container mx-auto bg-violet-900 p-5 flex justify-between">
+		<div className="flex mx-auto bg-violet-900 justify-between py-5 sm:px-10 lg:px-28">
 			<div>
 				<p className="text-white">Made with React, TailwindCSS and &#128156;</p>
 				<p className="text-white">Lisa Canini 2021&#169;</p>

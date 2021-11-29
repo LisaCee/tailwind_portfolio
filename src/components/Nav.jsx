@@ -5,7 +5,7 @@ export default function Nav() {
 
 	return (
 		<>
-		<nav className="container mx-auto flex items-center justify-between flex-wrap bg-violet-900 p-6">
+		<nav className="mx-auto lg:px-28 flex items-center justify-between flex-wrap bg-violet-900 p-6">
 			<div className="container mx-auto">
 				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<span className="font-semibold text-2xl text-white align-baseline">
