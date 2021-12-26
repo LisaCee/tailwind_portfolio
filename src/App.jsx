@@ -1,5 +1,7 @@
 import Nav from './components/Nav';
 import Intro from './components/Intro';
+import SkillsBar from './components/skillsBar';
+import About from './components/About';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import './index.css';
@@ -9,8 +11,10 @@ function App() {
 		<div className="App">
 			<Nav />
 			<Intro />
-			<Skills />
-			<Footer />
+			<SkillsBar />
+			<About />
+			{/* <Skills /> */}
+			{/* <Footer /> */}
 		</div>
 	);
 }

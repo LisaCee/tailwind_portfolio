@@ -2,11 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-gradient {
-	background: rgb(67,27,129);
-	background: linear-gradient(90deg, rgba(67,27,129,1) 0%, rgba(136,112,185,1) 29%, rgba(6,182,212,1) 66%, rgba(229,229,229,1) 100%);
+.home {
+	min-height: 65vh;
 }
-
+.bg-gradient {
+	background: rgb(67, 27, 129);
+	background: linear-gradient(
+		90deg,
+		rgba(67, 27, 129, 1) 0%,
+		rgba(136, 112, 185, 1) 29%,
+		hsl(189, 94%, 43%) 66%,
+		rgba(229, 229, 229, 1) 100%
+	);
+}
+@keyframes slideInLeft {
+	0% {
+		transform: translateX(-300%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes slideInRight {
+	0% {
+		transform: translateX(300%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+h1 {
+	animation-name: slideInLeft;
+	animation-duration: 2s;
+}
+h1.headline {
+	font-family: 'Ubuntu', sans-serif;
+}
+p.headline-small {
+	animation-name: slideInRight;
+	animation-duration: 5s;
+	z-index: -2;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
 .fa-paper-plane {
 	font-size: 25px;
 }
