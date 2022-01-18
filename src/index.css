@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.home {
-	min-height: 65vh;
-}
 .bg-gradient {
 	background: rgb(67, 27, 129);
 	background: linear-gradient(
@@ -15,37 +12,20 @@
 		rgba(229, 229, 229, 1) 100%
 	);
 }
-@keyframes slideInLeft {
-	0% {
-		transform: translateX(-300%);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-@keyframes slideInRight {
-	0% {
-		transform: translateX(300%);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-h1 {
-	animation-name: slideInLeft;
-	animation-duration: 2s;
-}
 h1.headline {
 	font-family: 'Ubuntu', sans-serif;
-}
-p.headline-small {
-	animation-name: slideInRight;
-	animation-duration: 5s;
-	z-index: -2;
 }
 p {
 	font-family: 'Ubuntu', sans-serif;
 }
 .fa-paper-plane {
 	font-size: 25px;
+}
+.cursor:after {
+	color: white;
+}
+@media screen and (min-width: 768px) {
+	.bg-gradient {
+		min-height: 500px;
+	}
 }

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from '../images/avatar350.jpg';
+import Likes from './Likes';
 
 export default function Intro() {
 	return (
@@ -7,12 +8,10 @@ export default function Intro() {
 			<div className='md:flex md:justify-around md:items-center'>
 				<div>
 					<h1 className='text-5xl text-white font-bold headline md:text-8xl'>
-						Hi, I'm Lisa Cee.
+						Hi, I'm Lisa Cee
 					</h1>
 
-					<p className='text-white text-2xl headline-small'>
-						And I like to make things better.
-					</p>
+					<Likes />
 				</div>
 				<div className=''>
 					<img

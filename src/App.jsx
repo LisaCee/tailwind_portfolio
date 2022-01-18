@@ -5,10 +5,11 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import './index.css';
+import './Typist.css';
 
 function App() {
 	return (
-		<div className="App">
+		<div className='App'>
 			<Nav />
 			<Intro />
 			<SkillsBar />
